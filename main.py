@@ -1,3 +1,5 @@
+from scripts import *
+
 # --------------------------------------------------------------------------------------
 # This is the interactive scripting language "RPGScript" for Python 3
 # CC-Celeste (Creative Commons 2022)
@@ -22,5 +24,6 @@ start_point = "N_start.txt"
 # ------------------------------------------------------------
 display(start_point)
 display("C_choice.txt")
-mkch2("O_01.txt", "O_02.txt")
+mkch3("ch0br0()", "ch0br1l()", "ch0br1r()")
+
 # ------------------------------------------------------------
