@@ -11,7 +11,7 @@ from fileops import display
 # --------------------DEFINE START-POINT----------------------
 # Just enter the filename of your first text file :)
 # ------------------------------------------------------------
-startpoint = "N_start.txt"
+start_point = "N_start.txt"
 # ------------------------------------------------------------
 
 
@@ -20,7 +20,7 @@ startpoint = "N_start.txt"
 # After making the first choice, the start-script is done and you have to continue all the different scripts in
 # "scripts.py". Define a script like that: "def script_name(variables, used, by, the, script, player_name, age): "
 # ------------------------------------------------------------
-display(startpoint)
+display(start_point)
 display("C_choice.txt")
 mkch2("O_01.txt", "O_02.txt")
 # ------------------------------------------------------------
