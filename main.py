@@ -1,7 +1,7 @@
 # --------------------------------------------------------------------------------------
 # This is the interactive scripting language "RPGScript" for Python 3
 # CC-Celeste (Creative Commons 2022)
-# Copyright 2022 © Celeste aka. 73chn0m4nc3r
+# Copyright 2022 © Celeste aka. 73chn0m4nc3r (ᑢᗩᘿᒪᘿSᖶᘿ aka. 73ᑕᕼᑎ0ᗰ4ᑎᑕ3ᖇ)
 # Sourcecode is available on GitHub https://www.github.com/celeste-42bit/allTheJazz
 # --------------------------------------------------------------------------------------
 
