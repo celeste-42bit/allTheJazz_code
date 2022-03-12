@@ -5,7 +5,7 @@ def read_file(file):
             f.close()
             return content
     except FileNotFoundError:
-        print("This file does not exist!")
+        print("\nThis file does not exist!")
         exit()  # TODO: exiting for now, make sure error is handled in the future, so the game doesn't crash!
     except:
         print("A fatal error has occurred, while trying to read the next page!")
@@ -18,9 +18,9 @@ def display(filename):
     print(str(content))
     print()
     if filename[0] == "N":
-        input()
+        input()  # essentially wait for user pressing enter
     elif filename[0] == "C":
-        pass
+        pass  # passing, because choiceeng.py will handle this
     elif filename[0] == "O":
         input()
     else:
