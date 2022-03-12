@@ -15,8 +15,10 @@ startpoint = "N_start.txt"
 # ------------------------------------------------------------
 
 
-# --------------------------SCRIPT----------------------------
+# -----------------------START-SCRIPT-------------------------
 # The script always starts with your start-point and can be continued freely from there on out!
+# After making the first choice, the start-script is done and you have to continue all the different scripts in
+# "scripts.py". Define a script like that: "def script_name(variables, used, by, the, script, player_name, age): "
 # ------------------------------------------------------------
 display(startpoint)
 display("C_choice.txt")
