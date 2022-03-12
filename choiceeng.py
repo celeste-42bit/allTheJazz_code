@@ -5,9 +5,9 @@ def mkch2(redA, redB):
         userinput = str(input("ENTER: "))
     else:
         if userinput == "A" or userinput == "a":
-            return "A", redA
+            eval(redA)
         elif userinput == "B" or userinput == "b":
-            return "B", redB
+            eval(redB)
 
 
 def mkch3(redA, redB, redC):
@@ -17,11 +17,11 @@ def mkch3(redA, redB, redC):
         userinput = str(input("ENTER: "))
     else:
         if userinput == "A" or userinput == "a":
-            return "A", redA
+            eval(redA)
         elif userinput == "B" or userinput == "b":
-            return "B", redB
+            eval(redB)
         elif userinput == "C" or userinput == "c":
-            return "C", redC
+            eval(redC)
 
 
 def mkch4(redA, redB, redC, redD):
@@ -31,13 +31,13 @@ def mkch4(redA, redB, redC, redD):
         userinput = str(input("ENTER: "))
     else:
         if userinput == "A" or userinput == "a":
-            return "A", redA
+            eval(redA)
         elif userinput == "B" or userinput == "b":
-            return "B", redB
+            eval(redB)
         elif userinput == "C" or userinput == "c":
-            return "C", redC
+            eval(redC)
         elif userinput == "D" or userinput == "d":
-            return "D", redD
+            eval(redD)
 
 
 def mkch5(redA, redB, redC, redD, redE):
@@ -47,15 +47,15 @@ def mkch5(redA, redB, redC, redD, redE):
         userinput = str(input("ENTER: "))
     else:
         if userinput == "A" or userinput == "a":
-            return "A", redA
+            eval(redA)
         elif userinput == "B" or userinput == "b":
-            return "B", redB
+            eval(redB)
         elif userinput == "C" or userinput == "c":
-            return "C", redC
+            eval(redC)
         elif userinput == "D" or userinput == "d":
-            return "D", redD
+            eval(redD)
         elif userinput == "E" or userinput == "e":
-            return "E", redE
+            eval(redE)
 
 
 def mkch6(redA, redB, redC, redD, redE, redF):
@@ -65,17 +65,17 @@ def mkch6(redA, redB, redC, redD, redE, redF):
         userinput = str(input("ENTER: "))
     else:
         if userinput == "A" or userinput == "a":
-            return "A", redA
+            eval(redA)
         elif userinput == "B" or userinput == "b":
-            return "B", redB
+            eval(redB)
         elif userinput == "C" or userinput == "c":
-            return "C", redC
+            eval(redC)
         elif userinput == "D" or userinput == "d":
-            return "D", redD
+            eval(redD)
         elif userinput == "E" or userinput == "e":
-            return "E", redE
+            eval(redE)
         elif userinput == "F" or userinput == "f":
-            return "F", redF
+            eval(redF)
 
 
 def mkch7(redA, redB, redC, redD, redE, redF, redG):
@@ -85,19 +85,19 @@ def mkch7(redA, redB, redC, redD, redE, redF, redG):
         userinput = str(input("ENTER: "))
     else:
         if userinput == "A" or userinput == "a":
-            return "A", redA
+            eval(redA)
         elif userinput == "B" or userinput == "b":
-            return "B", redB
+            eval(redB)
         elif userinput == "C" or userinput == "c":
-            return "C", redC
+            eval(redC)
         elif userinput == "D" or userinput == "d":
-            return "D", redD
+            eval(redD)
         elif userinput == "E" or userinput == "e":
-            return "E", redE
+            eval(redE)
         elif userinput == "F" or userinput == "f":
-            return "F", redF
+            eval(redF)
         elif userinput == "G" or userinput == "g":
-            return "G", redG
+            eval(redG)
 
 
 def mkch8(redA, redB, redC, redD, redE, redF, redG, redH):
@@ -107,19 +107,19 @@ def mkch8(redA, redB, redC, redD, redE, redF, redG, redH):
         userinput = str(input("ENTER: "))
     else:
         if userinput == "A" or userinput == "a":
-            return "A", redA
+            eval(redA)
         elif userinput == "B" or userinput == "b":
-            return "B", redB
+            eval(redB)
         elif userinput == "C" or userinput == "c":
-            return "C", redC
+            eval(redC)
         elif userinput == "D" or userinput == "d":
-            return "D", redD
+            eval(redD)
         elif userinput == "E" or userinput == "e":
-            return "E", redE
+            eval(redE)
         elif userinput == "F" or userinput == "f":
-            return "F", redF
+            eval(redF)
         elif userinput == "G" or userinput == "g":
-            return "G", redG
+            eval(redG)
         elif userinput == "H" or userinput == "h":
-            return "H", redH
+            eval(redH)
 
