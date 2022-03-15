@@ -20,11 +20,13 @@ Safe and read structure for player data:
 ```
 "character.env": created by: func.: createenv in class: "Player" in file: "player.py"
 
-player object: "Player": created by: constructor of class "Player"
+player object: "Player": created by: class "Player" in file: "player.py"
 ```
 Creating a player object:
+
+To create a new player object, you must pass all choosable attributes into the Player() class. All auto-populated attributes should be defined as "none"
 ```
-player = Player(self, <name>, <surname>, <gender>, <pronoun>, <clan>)
+player = Player(self, <name>, <surname>, <gender>, <pronoun>, <clan>, none, none, ..., none)
 ```
 Reading from a player object:
 general
@@ -35,8 +37,8 @@ Reading from a player object:
 use cases
 ```
 name = str(player.name)
-player_name = {player.name, player.surname}
-{gender=player.gender}
+player_name = player.name + " " + player.surname
+gender = player.gender
 ```
 
 ## Conventions
@@ -45,10 +47,12 @@ player_name = {player.name, player.surname}
 
 ### Story text file naming conventions
 
-For narration parts: ```N_<chapter><page>```
+To keep the same file-name lengths, not applicable options are added as placeholders (CCX and X in choice or option)
 
-For choice parts: ```C_<chapter><page>_<#choices>```
+Narration file without a choice ```N_<(xx)chapter><(bb)branch><(yy)linear-page>CC```
 
-For option parts: ```O_<chapter><page>_<A,B,...>```
+File containing a choice: ```C_<(xx)chapter><(bb)branch><(yy)linear-page><(cc)choice>```
+
+After a choice will always be a script change, changing the <branch> enumerator.
 
 ## Story development
