@@ -71,4 +71,4 @@ class Player:
     def save_dotenv(self):
         print("saved!")
 
-        # write to character.env
+        # write to character.env file

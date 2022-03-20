@@ -52,3 +52,5 @@ For choice parts: ```C_<chapter><page>_<#choices>```
 For option parts: ```O_<chapter><page>_<A,B,...>```
 
 ## Story development
+
+Story changes here!

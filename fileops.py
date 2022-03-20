@@ -8,7 +8,7 @@ def read_file(file):
         print("\nThis file does not exist!")
         exit()  # TODO: exiting for now, make sure error is handled in the future, so the game doesn't crash!
     except:
-        print("A fatal error has occurred, while trying to read the next page!")
+        print("A fatal ERROR has occurred, while trying to read the next page!")
         exit()  # exiting for now, make sure error is handled in the future, so the game doesn't crash!
 
 
@@ -24,4 +24,4 @@ def display(filename):
     elif filename[0] == "O":
         input()
     else:
-        print("\nWaring! This file has no prefix!")  # TODO: this is an error! Handle accordingly!
+        print("\nWaring! This file has NO PREFIX!")  # TODO: this is an error! Handle accordingly!

@@ -1,5 +1,5 @@
 from scripts import *
-
+# as redX user "scriptname()"
 def mkch2(redA, redB):
     userinput = str(input("ENTER: "))
     while userinput != "A" and userinput != "B" and userinput != "a" and userinput != "b":
