@@ -1,5 +1,3 @@
-from scripts import *
-
 # --------------------------------------------------------------------------------------
 # This is the interactive scripting language "RPGScript" for Python 3
 # CC-Celeste (Creative Commons 2022)

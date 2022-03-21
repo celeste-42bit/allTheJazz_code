@@ -13,7 +13,8 @@ def read_file(file):
 
 
 def display(filename):
-    content = read_file(filename)
+    # appended_filename = str(f"./allTheJazz_py/{filename}")  # adding the directory-path to the filename
+    content = read_file(filename)  # later replace by appended_filename
     print()
     print(str(content))
     print()
@@ -21,7 +22,8 @@ def display(filename):
         input()  # essentially wait for user pressing enter
     elif filename[0] == "C":
         pass  # passing, because choiceeng.py will handle this
-    elif filename[0] == "O":
-        input()
+# commented out for possible removal
+#    elif filename[0] == "O":
+#        input()
     else:
         print("\nWaring! This file has NO PREFIX!")  # TODO: this is an error! Handle accordingly!
