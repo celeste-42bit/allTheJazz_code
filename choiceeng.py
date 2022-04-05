@@ -1,127 +1,66 @@
 from scripts import *
-# as redX user "scriptname()"
-def mkch2(redA, redB):
-    userinput = str(input("ENTER: "))
-    while userinput != "A" and userinput != "B" and userinput != "a" and userinput != "b":
-        print("Enter either A(a) or B(b)!")
-        userinput = str(input("ENTER: "))
-    else:
-        if userinput == "A" or userinput == "a":
-            eval(redA)
-        elif userinput == "B" or userinput == "b":
-            eval(redB)
 
 
-def mkch3(redA, redB, redC):
-    userinput = str(input("ENTER: "))
-    while userinput != "A" and userinput != "B" and userinput != "C" and userinput != "a" and userinput != "b" and userinput != "c":
-        print("Enter either A, B or C!")
-        userinput = str(input("ENTER: "))
-    else:
-        if userinput == "A" or userinput == "a":
-            eval(redA)
-        elif userinput == "B" or userinput == "b":
-            eval(redB)
-        elif userinput == "C" or userinput == "c":
-            eval(redC)
+def opt_input():  # ask for the players choice
+    valid_opt = ["A", "B", "C", "D", "E", "F", "G", "H", "a", "b", "c", "d", "e", "f", "g", "h"]
+    opt = str(input("Your choice: "))
+    while not valid_opt.__contains__(opt):
+        print("Please choose one of the options above!")
+        opt = str(input("Your choice again: "))
+    if opt.isupper():
+        opt = opt.lower()
+    return opt
 
 
-def mkch4(redA, redB, redC, redD):
-    userinput = str(input("ENTER: "))
-    while userinput != "A" and userinput != "B" and userinput != "C" and userinput != "D" and userinput != "a" and userinput != "b" and userinput != "c" and userinput != "d":
-        print("Enter either A, B, C or D!")
-        userinput = str(input("ENTER: "))
-    else:
-        if userinput == "A" or userinput == "a":
-            eval(redA)
-        elif userinput == "B" or userinput == "b":
-            eval(redB)
-        elif userinput == "C" or userinput == "c":
-            eval(redC)
-        elif userinput == "D" or userinput == "d":
-            eval(redD)
+def ch_error(*args):
+    print("Please choose one of the options above!")
+    choice(*args)
 
 
-def mkch5(redA, redB, redC, redD, redE):
-    userinput = str(input("ENTER: "))
-    while userinput != "A" and userinput != "B" and userinput != "C" and userinput != "D" and userinput != "E" and userinput != "a" and userinput != "b" and userinput != "c" and userinput != "d" and userinput != "e":
-        print("Enter either A, B, C, D or E!")
-        userinput = str(input("ENTER: "))
-    else:
-        if userinput == "A" or userinput == "a":
-            eval(redA)
-        elif userinput == "B" or userinput == "b":
-            eval(redB)
-        elif userinput == "C" or userinput == "c":
-            eval(redC)
-        elif userinput == "D" or userinput == "d":
-            eval(redD)
-        elif userinput == "E" or userinput == "e":
-            eval(redE)
+def choice(*args):
+    opt = opt_input()
+    match opt:
+        case "a":
+            try:
+                eval(args[0])
+            except IndexError:
+                ch_error(*args)
+        case "b":
+            try:
+                eval(args[1])
+            except IndexError:
+                ch_error(*args)
+        case "c":
+            try:
+                eval(args[2])
+            except IndexError:
+                ch_error(*args)
+        case "d":
+            try:
+                eval(args[3])
+            except IndexError:
+                ch_error(*args)
+        case "e":
+            try:
+                eval(args[4])
+            except IndexError:
+                ch_error(*args)
+        case "f":
+            try:
+                eval(args[5])
+            except IndexError:
+                ch_error(*args)
+        case "g":
+            try:
+                eval(args[5])
+            except IndexError:
+                ch_error(*args)
+        case "h":
+            try:
+                eval(args[6])
+            except IndexError:
+                ch_error(*args)
 
-
-def mkch6(redA, redB, redC, redD, redE, redF):
-    userinput = str(input("ENTER: "))
-    while userinput != "A" and userinput != "B" and userinput != "C" and userinput != "D" and userinput != "E" and userinput != "F" and userinput != "a" and userinput != "b" and userinput != "c" and userinput != "d" and userinput != "e" and userinput != "f":
-        print("Enter either A, B, C, D, E or F!")
-        userinput = str(input("ENTER: "))
-    else:
-        if userinput == "A" or userinput == "a":
-            eval(redA)
-        elif userinput == "B" or userinput == "b":
-            eval(redB)
-        elif userinput == "C" or userinput == "c":
-            eval(redC)
-        elif userinput == "D" or userinput == "d":
-            eval(redD)
-        elif userinput == "E" or userinput == "e":
-            eval(redE)
-        elif userinput == "F" or userinput == "f":
-            eval(redF)
-
-
-def mkch7(redA, redB, redC, redD, redE, redF, redG):
-    userinput = str(input("ENTER: "))
-    while userinput != "A" and userinput != "B" and userinput != "C" and userinput != "D" and userinput != "E" and userinput != "F" and userinput != "G" and userinput != "a" and userinput != "b" and userinput != "c" and userinput != "d" and userinput != "e" and userinput != "f" and userinput != "g":
-        print("Enter either A, B, C, D, E, F or G!")
-        userinput = str(input("ENTER: "))
-    else:
-        if userinput == "A" or userinput == "a":
-            eval(redA)
-        elif userinput == "B" or userinput == "b":
-            eval(redB)
-        elif userinput == "C" or userinput == "c":
-            eval(redC)
-        elif userinput == "D" or userinput == "d":
-            eval(redD)
-        elif userinput == "E" or userinput == "e":
-            eval(redE)
-        elif userinput == "F" or userinput == "f":
-            eval(redF)
-        elif userinput == "G" or userinput == "g":
-            eval(redG)
-
-
-def mkch8(redA, redB, redC, redD, redE, redF, redG, redH):
-    userinput = str(input("ENTER: "))
-    while userinput != "A" and userinput != "B" and userinput != "C" and userinput != "D" and userinput != "E" and userinput != "F" and userinput != "G" and userinput != "H" and userinput != "a" and userinput != "b" and userinput != "c" and userinput != "d" and userinput != "e" and userinput != "f" and userinput != "g" and userinput != "h":
-        print("Enter either A, B, C, D, E, F, G or H!")
-        userinput = str(input("ENTER: "))
-    else:
-        if userinput == "A" or userinput == "a":
-            eval(redA)
-        elif userinput == "B" or userinput == "b":
-            eval(redB)
-        elif userinput == "C" or userinput == "c":
-            eval(redC)
-        elif userinput == "D" or userinput == "d":
-            eval(redD)
-        elif userinput == "E" or userinput == "e":
-            eval(redE)
-        elif userinput == "F" or userinput == "f":
-            eval(redF)
-        elif userinput == "G" or userinput == "g":
-            eval(redG)
-        elif userinput == "H" or userinput == "h":
-            eval(redH)
-
+# this is an arbitrary test question with 3 options. It should evaluate your choice and if its valid, execute the code
+# passed into it starting with the first option as the first passed argument!
+# choice("print('option A')", "print('option B')", "print('option C')")

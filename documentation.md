@@ -23,17 +23,17 @@ Safe and read structure for player data:
 player object: "Player": created by: constructor of class "Player"
 ```
 Creating a player object:
-```
+```python3
 player = Player(self, <name>, <surname>, <gender>, <pronoun>, <clan>)
 ```
 Reading from a player object:
 general
-```
+```python3
 storedValue = cast(player.value)
 ```
 Reading from a player object:
 use cases
-```
+```python3
 name = str(player.name)
 player_name = {player.name, player.surname}
 {gender=player.gender}
