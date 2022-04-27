@@ -1,3 +1,5 @@
+from os import system, name
+
 # read text files for display
 def read_file(file):
     try:
@@ -20,7 +22,8 @@ def read_file(file):
 
 
 # display text files into the console
-# TODO find out how to make the whole game executable from anywhere, so every filepath is found no matter where it is executed from
+# TODO find out how to make the whole game executable from anywhere,
+# so every filepath is found no matter where it is executed from
 def display(filename):
     # appended_filename = str(f"./allTheJazz_py/{filename}")  # adding the directory-path to the filename
     content = read_file(filename)  # later pass by appended_filename
@@ -47,3 +50,9 @@ def character_creation():
 def load_active_character():
     pass
 
+
+def clear():
+    if name == "nt":
+        _ = system("cls")
+    else:
+        _ = system("clear")

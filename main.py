@@ -9,7 +9,7 @@ from choiceeng import *
 from fileops import display
 
 # --------------------DEFINE START-POINT----------------------
-# Just enter the filename of your first text file :)
+# Just enter the filename of your first text file (*^▽^*)
 # ------------------------------------------------------------
 start_point = "N_start.txt"
 # ------------------------------------------------------------
@@ -22,6 +22,6 @@ start_point = "N_start.txt"
 # ------------------------------------------------------------
 display(start_point)
 display("C_choice.txt")
-mkch3("ch0br0()", "ch0br1l()", "ch0br1r()")
+choice("ch0br0()", "ch0br1l()", "ch0br1r()")
 
 # ------------------------------------------------------------
